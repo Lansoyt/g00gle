@@ -1,0 +1,282 @@
+a {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+body {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+/*HEADER*/
+
+header .container {
+  margin-right: 25px;
+  float: right;
+  padding-top: 20px;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.nav_link {
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0 9px;
+  text-decoration: none;
+  color: rgb(34, 34, 34);
+  -webkit-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+  position: relative;
+}
+
+.nav_link:hover:nth-child(1) {
+  color: #808080;
+  text-decoration: underline;
+}
+
+.nav_link:hover:nth-child(2) {
+  color: #808080;
+  text-decoration: underline;
+}
+
+.blue-button {
+  border: 1px solid #4285f4;
+  background-color: #4683ea;
+  font-weight: bold;
+  padding: 0 12px;
+  border-radius: 2px;
+  line-height: 28px;
+  color: white;
+  text-align: left;
+  cursor: default;
+}
+
+.container a:nth-child(4) {
+  margin-top: -5px;
+}
+
+.abc {
+  padding-right: 5px;
+}
+
+.abc:hover {
+  opacity: 0.85 !important;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*LOGO*/
+
+.google {
+  height: 92px;
+  width: 272px;
+  margin-left: 43%;
+  margin-top: 10.5%;
+}
+
+/*SEARCH BAR*/
+
+.search-box {
+  outline: none;
+  height: 46px;
+  width: 584px;
+  border-radius: 50px;
+  border: #e0e0e0 0.5px solid;
+  opacity: 100%;
+  -webkit-transition: all 0s ease;
+  transition: all 0s ease;
+  resize: both;
+  color: black;
+  font-size: 16px;
+  margin: 0 auto;
+  margin-top: 27px;
+  z-index: 999;
+}
+
+.search-txt {
+  width: 398px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: none;
+  outline: none;
+  margin-top: -12px;
+  margin-left: 50px;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 34px;
+  height: 34px !important;
+  text-align: start;
+  word-wrap: break-word;
+}
+
+.search-box:hover {
+  -webkit-box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+          box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.svg {
+  position: relative;
+  height: 15px;
+  width: 15px;
+  opacity: 35%;
+  top: 15px;
+  left: 18px;
+}
+
+.keyboard {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  bottom: 30px;
+  left: 500px;
+  line-height: 44px;
+}
+
+.microphone {
+  opacity: 50%;
+  position: relative;
+  left: 515px;
+  bottom: 30px;
+}
+
+/*BUTTONS*/
+
+.buttons {
+  margin-top: 35px;
+  display: block;
+  text-align: center;
+}
+
+.first-button {
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+  color: #636363;
+  font-size: 15px;
+  margin-right: 10px;
+  padding: 10px;
+  text-align: center;
+  height: 36px;
+  width: 120px;
+  border-radius: 3px;
+}
+
+.second-button {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+  color: #636363;
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+  height: 36px;
+  border-radius: 3px;
+}
+
+.first-button:hover {
+  -webkit-box-shadow: 0 0 1px #b6b5b5;
+          box-shadow: 0 0 1px #b6b5b5;
+  border: 0.5px solid #b6b5b5;
+  color: black;
+}
+
+.second-button:hover {
+  -webkit-box-shadow: 0 0 1px #b6b5b5;
+          box-shadow: 0 0 1px #b6b5b5;
+  border: 0.5px solid #b6b5b5;
+  color: black;
+}
+
+/*TEXT*/
+
+#text-after-buttons {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.country {
+  color: #1a0dab;
+}
+
+.country:hover {
+  text-decoration: underline;
+}
+
+/*FOOTER*/
+
+.first-footer {
+  border-top: #e0e0e0 0.5px solid;
+  position: absolute;
+  height: 40px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #f2f2f2;
+}
+
+.footer-menu {
+  top: 13px;
+  padding-left: 30px;
+  position: absolute;
+}
+
+.footer-menu a:nth-child(5) {
+  padding-left: 1035px;
+}
+
+.footer-menu a:nth-child(7) {
+  margin-right: 0px;
+}
+
+.footer-menu a {
+  margin-right: 23px;
+}
+
+.footer-link {
+  font-size: 14px;
+  color: #6e6e6e;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.second-footer {
+  border-top: #e0e0e0 0.5px solid;
+  position: absolute;
+  height: 40px;
+  width: 100%;
+  left: 0;
+  bottom: 41px;
+  background-color: #f2f2f2;
+}
+
+.footer-country {
+  top: 13px;
+  padding-left: 30px;
+  position: absolute;
+  font-size: 15px;
+  color: #6e6e6e;
+}
